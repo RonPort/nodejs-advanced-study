@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-advanced-study",
+  "version": "1.0.0",
+  "description": "Estudo de Clean Architecture, TDD, TypeORM e SOLID",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/main/api",
+    "build": "rm -rf dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonPort/nodejs-advanced-study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RonPort/nodejs-advanced-study/issues"
+  },
+  "homepage": "https://github.com/RonPort/nodejs-advanced-study#readme",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^18.14.6",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}
