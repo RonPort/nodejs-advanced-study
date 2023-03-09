@@ -9,11 +9,13 @@
     "moduleResolution": "node",
     "module": "commonjs",
     "esModuleInterop": true,
+    "strictNullChecks": true,
     "baseUrl": "src",
     "paths":{
       "@/*": ["*"],
       "@/tests/*": ["../tests/*"]
     }
   },
-  "include": ["src"]
+  "include": ["src", "tests"],
+  "strict": true
 }
